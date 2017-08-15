@@ -290,12 +290,14 @@ function Get-SQLServerPermissionSet
     [OutputType([Object])]
     param
     (
-        [Parameter(Mandatory = $true, ParameterSetName = 'Permission')]
+        [Parameter(Mandatory = $true)]
+        [Parameter(ParameterSetName = 'Permission')]
         [System.String[]]
         [ValidateNotNullOrEmpty()]
         $Permission,
 
-        [Parameter(Mandatory = $true, ParameterSetName = 'ServerPermissionSet')]
+        [Parameter(Mandatory = $true)]
+        [Parameter(ParameterSetName = 'ServerPermissionSet')]
         [Microsoft.SqlServer.Management.Smo.ServerPermissionSet[]]
         [ValidateNotNullOrEmpty()]
         $PermissionSet
