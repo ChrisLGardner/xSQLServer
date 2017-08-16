@@ -62,6 +62,8 @@
   - Fixed PS Script Analyzer errors ([issue #725](https://github.com/PowerShell/xSQLServer/issues/725))
 - Changes to xSQLServerScript
   - Fixed PS Script Analyzer errors ([issue #728](https://github.com/PowerShell/xSQLServer/issues/728))
+- Changes to xSQLServerPermission
+  - Fixed PS Script Analyser errors ([Issue #727](https://github.com/PowerShell/xSQLServer/issues/727))
 - Changes to xSQLServerSetup
   - Added Swedish localization ([issue #695](https://github.com/PowerShell/xSQLServer/issues/695)).
   - Now Get-TargetResource correctly returns an array for property ASSysAdminAccounts,
